@@ -4,7 +4,7 @@ Program that find the biggest possible square on a map while avoiding obstacles.
 
 ## Screeshot
 
-
+![alt text](https://raw.githubusercontent.com/qlem/BSQ/master/screenshot.png)
 
 ## Compile
 
@@ -14,20 +14,18 @@ Program that find the biggest possible square on a map while avoiding obstacles.
 
 ## Map generation
 
-Make sure that "generation" file is an executable.
+Make sure that the file "generation" is an executable.
 
 Else :
 
-
 ```
 chmod 755 generation
-
 ```
 
 Example to generate a map :
 
 ```
-./generation 20 20 3 > map_file
+./generation 30 20 3 > map_file
 ```
 
 ## Run
